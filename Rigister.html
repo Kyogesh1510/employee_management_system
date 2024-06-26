@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Registration</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #00796b;
+            margin-top: 20px;
+        }
+
+        form {
+            width: 40%;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #00796b;
+        }
+
+        input[type="number"], input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #bdbdbd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #00796b;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #004d40;
+        }
+
+        .form-container {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Employee Registration</h2>
+    <form action="register" method="post">
+        <div class="form-container">
+            <label for="id">Employee ID:</label>
+            <input type="number" id="id" name="id" required>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="dept">Department:</label>
+            <input type="text" id="dept" name="dept" required>
+
+            <label for="sal">Salary:</label>
+            <input type="number" id="sal" name="sal" required>
+
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
