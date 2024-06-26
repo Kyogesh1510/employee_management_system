@@ -47,7 +47,7 @@ c.MySQL 5.7 or higher
 Steps
 1.Clone the repository
 sh
-git clone https://github.com/yourusername/employeeregistrationsystem.git
+git clone https://github.com/Gajjellisadasiva1/employeeregistrationsystem.git
 cd employeeregistrationsystem
 
 2.Set up MySQL Database
@@ -74,7 +74,7 @@ Copy the project folder to your Tomcat webapps directory.
 Start Tomcat server.
 
 5.Access the Web Application
-Open your browser and navigate to http://localhost:8080/yourprojectname/Register.html.
+Open your browser and navigate to http://localhost:8080/JE1/Register.html.
 Usage
 Fill in the employee registration form and submit it to register an employee.
 The employee data will be stored in the MySQL database.
