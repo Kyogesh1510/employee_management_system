@@ -10,7 +10,7 @@ public class EmployeeBo {
 	private PreparedStatement statement;
 	static final String url="jdbc:mysql://localhost:3306/jdbc2";
 	static final String username="root";
-	static final String password="193n1A0515";
+	static final String password="root";
 	static final String Insert_Query="insert into `employee2`(`id`,`name`,`email`,`dept`,`sal`) values(?,?,?,?,?)";
 	public EmployeeBo() {
 		try {
